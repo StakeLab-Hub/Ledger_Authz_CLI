@@ -6,19 +6,18 @@ Through this guide you gonna learn how to enable auto compounding with StakeLab 
 *  Linux Machine 20.4+  
 *  Install few packages:  
 ```shell
-apt install build-essential git
+apt install build-essential git ufw curl jq 
 ```
 ```shell
-wget -c https://go.dev/dl/go1.18.3.linux-amd64.tar.gz && rm -rf /usr/local/go && tar -C /usr/local -xzf go1.18.3.linux-amd64.tar.gz
+wget -c https://go.dev/dl/go1.18.3.linux-amd64.tar.gz && rm -rf /usr/local/go && tar -C /usr/local -xzf go1.18.3.linux-amd64.tar.gz && rm -rf go1.18.3.linux-amd64.tar.gz
 ```  
-
 ```shell
 echo 'export GOROOT=/usr/local/go' >> $HOME/.bash_profile
 echo 'export GOPATH=$HOME/go' >> $HOME/.bash_profile
 echo 'export GO111MODULE=on' >> $HOME/.bash_profile
 echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile && . $HOME/.bash_profile
 ```  
-*  
+*  Hm, obviously grab your Ledger device and open the Cosmos application
 
 ## Direct link to a chain:  
 [Akash](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#akash)  
