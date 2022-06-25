@@ -25,6 +25,7 @@ _Bitsong_
 _Cerberus_  
 
 _Certik_  
+`git clone https://github.com/ShentuChain/shentu restake_shentu && cd restake_shentu && make install`  
 
 _Chihuahua_  
 
