@@ -6,7 +6,56 @@ Through this guide you gonna learn how to enable auto compounding with StakeLab 
 *   
 *   
 *    
-*   
+
+## Direct link to a chain:  
+[Akash]  
+[Asset Mantle]  
+[Axelar]  
+[Band Protocol]  
+[Bitcanna]  
+[Bitsong]  
+[Cerberus]  
+[Certik]  
+[Chihuahua]  
+[Comdex]  
+[Commercio]  
+[Cosmos Hu]b  
+[Crescent]  
+[Decentr]  
+[Desmos]  
+[Dig Chain]  
+[Emoney]  
+[Evmos]  
+[Fetch Ai]  
+[Galaxy]  
+[Gravity Bridge]  
+[Injective]  
+[Iris]  
+[Ixo]  
+[Juno]  
+[Kava]  
+[Ki Chain]  
+[Konstellation]  
+[Lum]  
+[Medibloc]  
+[Meme]  
+[Microtick]  
+[Nomic]  
+[Omniflix]  
+[Oraichain]  
+[Osmosis]  
+[Persistence]  
+[Regen]  
+[Rizon]  
+[Secret]  
+[Sentinel]  
+[Sifchain]  
+[Sommelier]  
+[Stargaze]  
+[Starname]  
+[Terra]  
+[Umee]  
+[Vidulum]  
 
 ## Supported networks:  
 
