@@ -8,54 +8,54 @@ Through this guide you gonna learn how to enable auto compounding with StakeLab 
 *    
 
 ## Direct link to a chain:  
-[Akash]  
-[Asset Mantle]  
-[Axelar]  
-[Band Protocol]  
-[Bitcanna]  
-[Bitsong]  
-[Cerberus]  
-[Certik]  
-[Chihuahua]  
-[Comdex]  
-[Commercio]  
-[Cosmos Hu]b  
-[Crescent]  
-[Decentr]  
-[Desmos]  
-[Dig Chain]  
-[Emoney]  
-[Evmos]  
-[Fetch Ai]  
-[Galaxy]  
-[Gravity Bridge]  
-[Injective]  
-[Iris]  
-[Ixo]  
-[Juno]  
-[Kava]  
-[Ki Chain]  
-[Konstellation]  
-[Lum]  
-[Medibloc]  
-[Meme]  
-[Microtick]  
-[Nomic]  
-[Omniflix]  
-[Oraichain]  
-[Osmosis]  
-[Persistence]  
-[Regen]  
-[Rizon]  
-[Secret]  
-[Sentinel]  
-[Sifchain]  
-[Sommelier]  
-[Stargaze]  
-[Starname]  
-[Terra]  
-[Umee]  
-[Vidulum]  
+[Akash](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#akash)  
+[Asset Mantle](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#asset-mantle)  
+[Axelar](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#axelar)  
+[Band Protocol](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#band-protocol)  
+[Bitcanna](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#bitcanna)  
+[Bitsong](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#bitsong)  
+[Cerberus](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#cerberus)  
+[Certik](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#certik)  
+[Chihuahua](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#chihuahua)  
+[Comdex](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#comdex)  
+[Commercio](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#commercio)  
+[Cosmos Hub](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#cosmos-hub)  
+[Crescent](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#crescent)  
+[Decentr](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#decentr)  
+[Desmos](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#desmos)  
+[Dig Chain](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#dig-chain)  
+[Emoney](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#emoney)  
+[Evmos](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#evmos)  
+[Fetch Ai](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#fetch-ai)  
+[Galaxy](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#galaxy)  
+[Gravity Bridge](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#gravity-bridge)  
+[Injective](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#injective)  
+[Iris](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#iris)  
+[Ixo](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#ixo)  
+[Juno](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#juno)  
+[Kava](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#kava)  
+[Ki Chain](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#ki-chain)  
+[Konstellation](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#konstellation)  
+[Lum](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#lum)  
+[Medibloc](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#medibloc)  
+[Meme](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#meme)  
+[Microtick](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#microtick)  
+[Nomic](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#nomic)  
+[Omniflix](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#omniflix)  
+[Oraichain](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#oraichain)  
+[Osmosis](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#osmosis)  
+[Persistence](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#persistence)  
+[Regen](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#regen)  
+[Rizon](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#rizon)  
+[Secret](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#secret)  
+[Sentinel](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#sentinel)  
+[Sifchain](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#sifchain)  
+[Sommelier](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#sommelier)  
+[Stargaze](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#stargaze)  
+[Starname](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#starname)  
+[Terra](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#terra)  
+[Umee](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#umee)  
+[Vidulum](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#vidulum)   
 
 ## Supported networks:  
 
