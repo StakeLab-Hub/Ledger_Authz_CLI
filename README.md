@@ -10,7 +10,7 @@ apt update && apt upgrade -y
 ```  
 
 ```shell
-apt install build-essential git ufw curl jq 
+apt install build-essential git ufw curl jq -y
 ```
 
 ```shell
