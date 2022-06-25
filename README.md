@@ -4,11 +4,14 @@ Through this guide you gonna learn how to enable auto compounding with StakeLab 
 
 ## Prerequis:  
 *  Linux Machine 20.4+  
-*  Few packages  
+*  Install few packages:  
 ```shell
 apt install build-essential git
+```
+```shell
 wget -c https://go.dev/dl/go1.18.3.linux-amd64.tar.gz && rm -rf /usr/local/go && tar -C /usr/local -xzf go1.18.3.linux-amd64.tar.gz
 ```  
+
 ```shell
 echo 'export GOROOT=/usr/local/go' >> $HOME/.bash_profile
 echo 'export GOPATH=$HOME/go' >> $HOME/.bash_profile
