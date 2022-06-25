@@ -2,8 +2,11 @@
 How to enable auto compounding using Authz module and CLI for Ledger users.
 
 _Akash_
+
 _Asset Mantle_
+
 _Axelar_
+
 _Band Protocol_
 _Bitcanna_
 _Bitsong_
