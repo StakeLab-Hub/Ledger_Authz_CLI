@@ -94,7 +94,13 @@ echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile &
 ### _Cerberus_  
 
 ### _Certik_  
-`git clone https://github.com/ShentuChain/shentu restake_shentu && cd restake_shentu && make install`  
+```shell
+git clone https://github.com/ShentuChain/shentu restake_shentu && cd restake_shentu && make install
+```  
+You should already have the Cosmos application open, if not, open it!  
+```shell
+certik keys add certik --ledger
+```  
 
 ### _Chihuahua_  
 
