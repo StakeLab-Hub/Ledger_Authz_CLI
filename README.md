@@ -25,7 +25,7 @@ echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile &
 ```  
 *  Now, obviously grab your Ledger device and open the Cosmos application
 
-*Note that if you don't have one, you should buy one to start managing your assets in a secure way, juste [here](https://www.ledger.com)*  
+*Note that if you don't have one, you should buy one to start managing your assets in a secure way, just [here](https://www.ledger.com)*  
 
 ## Direct link to a chain:  
 [Akash](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#akash)  
