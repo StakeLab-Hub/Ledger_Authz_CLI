@@ -23,7 +23,7 @@ echo 'export GOPATH=$HOME/go' >> $HOME/.bash_profile
 echo 'export GO111MODULE=on' >> $HOME/.bash_profile
 echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile && . $HOME/.bash_profile
 ```  
-*  Hm, obviously grab your Ledger device and open the Cosmos application
+*  Now, obviously grab your Ledger device and open the Cosmos application
 
 *Note that if you don't have one, you should buy one to start managing your assets in a secure way, juste [here](https://www.ledger.com)*  
 
@@ -86,6 +86,22 @@ echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile &
 ### _Axelar_  
 ----------------
 ### _Band Protocol_  
+```shell
+git clone https://github.com/bandprotocol/chain restake_bandchain  && cd restake_bandchain && make install
+```  
+You should already have the Cosmos application open, if not, open it! Then run: 
+```shell
+bandd keys add bandprotocol --ledger
+```  
+It will generate your address under the wallet name "bandprotocol" to make it easier to remember using the chain name.  
+Now we will enable StakeLab to auto-compound:  
+```shell
+bandd tx authz grant band12ytjdnz6pqdd0xz8fdf3hugyckkjteqweqjg7u generic --msg-type /cosmos.staking.v1beta1.MsgDelegate --from bandprotocol --ledger --chain-id laozi-mainnet --node https://rpc.cosmos.directory:443/bandchain --gas auto --gas-prices 0.024999999999999998uband --gas-adjustment 1.5
+```  
+If you want to stop the auto-compounding, one command to revoke the access:  
+```shell
+bandd tx authz revoke band12ytjdnz6pqdd0xz8fdf3hugyckkjteqweqjg7u /cosmos.staking.v1beta1.MsgDelegate --from bandprotocol --ledger --chain-id laozi-mainnet --node https://rpc.cosmos.directory:443/bandchain --gas auto --gas-prices 0.024999999999999998uband --gas-adjustment 1.5
+```  
 ----------------
 ### _Bitcanna_  
 ----------------
