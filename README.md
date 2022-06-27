@@ -80,11 +80,46 @@ echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile &
 ## Supported networks:  
 
 ### _Akash_  
+```shell
+git clone https://github.com/ovrclk/akash/ restake_akassh  && cd restake_akash && make install
+```  
+You should already have the Cosmos application open, if not, open it! Then run: 
+```shell
+akash keys add akash --ledger
+```  
+It will generate your address under the wallet name "akash" to make it easier to remember using the chain name.  
+Now we will enable StakeLab to auto-compound:  
+```shell
+akash tx authz grant akash1mjq48r6435aewerpruwc8up3tz3rzan2pznsc0 generic --msg-type /cosmos.staking.v1beta1.MsgDelegate --from akash --ledger --chain-id akashnet-2 --node https://rpc.cosmos.directory:443/akash --gas auto --gas-prices 0.024999999999999998uakt --gas-adjustment 1.5
+```  
+If you want to stop the auto-compounding, one command to revoke the access:  
+```shell
+akash tx authz revoke akash1mjq48r6435aewerpruwc8up3tz3rzan2pznsc0 /cosmos.staking.v1beta1.MsgDelegate --from akash --ledger --chain-id akashnet-2 --node https://rpc.cosmos.directory:443/akash --gas auto --gas-prices 0.024999999999999998uakt --gas-adjustment 1.5
+```  
 ----------------
+
 ### _Asset Mantle_  
+```shell
+git clone https://github.com/AssetMantle/node.git restake_assetmantle && cd restake_assetmantle && make install
+```  
+You should already have the Cosmos application open, if not, open it! Then run: 
+```shell
+mantleNode keys add assetmantle --ledger
+```  
+It will generate your address under the wallet name "assetmantle" to make it easier to remember using the chain name.  
+Now we will enable StakeLab to auto-compound:  
+```shell
+mantleNode tx authz grant mantle1mjq48r6435aewerpruwc8up3tz3rzan2ja9j7l generic --msg-type /cosmos.staking.v1beta1.MsgDelegate --from assetmantle --ledger --chain-id mantle-1 --node https://rpc.cosmos.directory:443/assetmantle --gas auto --gas-prices 0.025umntl --gas-adjustment 1.5
+```  
+If you want to stop the auto-compounding, one command to revoke the access:  
+```shell
+mantleNode tx authz revoke mantle1mjq48r6435aewerpruwc8up3tz3rzan2ja9j7l /cosmos.staking.v1beta1.MsgDelegate --from assetmantle --ledger --chain-id mantle-1 --node https://rpc.cosmos.directory:443/assetmantle --gas auto --gas-prices 0.025umntl --gas-adjustment 1.5
+```  
 ----------------
+
 ### _Axelar_  
 ----------------
+
 ### _Band Protocol_  
 ```shell
 git clone https://github.com/bandprotocol/chain restake_bandchain  && cd restake_bandchain && make install
@@ -103,12 +138,16 @@ If you want to stop the auto-compounding, one command to revoke the access:
 bandd tx authz revoke band12ytjdnz6pqdd0xz8fdf3hugyckkjteqweqjg7u /cosmos.staking.v1beta1.MsgDelegate --from bandprotocol --ledger --chain-id laozi-mainnet --node https://rpc.cosmos.directory:443/bandchain --gas auto --gas-prices 0.024999999999999998uband --gas-adjustment 1.5
 ```  
 ----------------
+
 ### _Bitcanna_  
 ----------------
+
 ### _Bitsong_  
 ----------------
+
 ### _Cerberus_  
 ----------------
+
 ### _Certik_  
 ```shell
 git clone https://github.com/ShentuChain/shentu restake_shentu && cd restake_shentu && make install
@@ -127,6 +166,7 @@ If you want to stop the auto-compounding, one command to revoke the access:
 certik tx authz revoke certik1mjq48r6435aewerpruwc8up3tz3rzan2t3zqq7 /cosmos.staking.v1beta1.MsgDelegate --from certik --ledger --chain-id shentu-2.2 --node https://rpc.cosmos.directory:443/shentu --gas auto --gas-prices 0.024999999999999998uctk --gas-adjustment 1.5
 ```  
 ----------------
+
 ### _Chihuahua_  
 ----------------
 ### _Comdex_  
