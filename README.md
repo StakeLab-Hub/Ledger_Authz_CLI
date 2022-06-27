@@ -1,7 +1,7 @@
 # Ledger_Authz_CLI
 Through this guide you gonna learn how to enable auto compounding with StakeLab using CLI and the Authz module.  
 *Note that this is only for users managing their assets with a Ledger device.*  
-
+----------------
 ## Prerequis:  
 *  Linux Machine 20.4+  
 *  Install few packages:  
@@ -26,7 +26,7 @@ echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile &
 *  Hm, obviously grab your Ledger device and open the Cosmos application
 
 *Note that if you don't have one, you should buy one to start managing your assets in a secure way, juste [here](https://www.ledger.com)*  
-
+----------------
 ## Direct link to a chain:  
 [Akash](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#akash)  
 [Asset Mantle](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#asset-mantle)  
@@ -76,23 +76,23 @@ echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile &
 [Terra](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#terra)  
 [Umee](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#umee)  
 [Vidulum](https://github.com/StakeLab-Hub/Ledger_Authz_CLI/blob/main/README.md#vidulum)   
-
+----------------
 ## Supported networks:  
 
 ### _Akash_  
-
+----------------
 ### _Asset Mantle_  
-
+----------------
 ### _Axelar_  
-
+----------------
 ### _Band Protocol_  
-
+----------------
 ### _Bitcanna_  
 
 ### _Bitsong_  
 
 ### _Cerberus_  
-
+----------------
 ### _Certik_  
 ```shell
 git clone https://github.com/ShentuChain/shentu restake_shentu && cd restake_shentu && make install
@@ -110,7 +110,7 @@ If you want to stop the auto-compounding, one command to revoke the access:
 ```shell
 certik tx authz revoke certik1mjq48r6435aewerpruwc8up3tz3rzan2t3zqq7 /cosmos.staking.v1beta1.MsgDelegate --from certik --ledger --chain-id shentu-2.2 --node https://rpc.cosmos.directory:443/shentu --gas auto --gas-prices 0.024999999999999998uctk --gas-adjustment 1.5
 ```  
-
+----------------
 ### _Chihuahua_  
 
 ### _Comdex_  
