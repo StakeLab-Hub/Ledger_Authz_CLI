@@ -97,9 +97,14 @@ echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile &
 ```shell
 git clone https://github.com/ShentuChain/shentu restake_shentu && cd restake_shentu && make install
 ```  
-You should already have the Cosmos application open, if not, open it!  
+You should already have the Cosmos application open, if not, open it! Then run: 
 ```shell
 certik keys add certik --ledger
+```  
+It will generate your address under the wallet name "certik" to make it easier to remember using the chain name.  
+Now we will enable StakeLab to auto-compound:  
+```shell
+certik tx authz grant certik1mjq48r6435aewerpruwc8up3tz3rzan2t3zqq7 generic --msg-type /cosmos.staking.v1beta1.MsgDelegate --from certik --ledger --chain-id shentu-2.2 --node https://rpc.cosmos.directory:443/shentu --gas auto --gas-prices 0.024999999999999998uctk --gas-adjustment 1.5
 ```  
 
 ### _Chihuahua_  
